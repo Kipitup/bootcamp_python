@@ -34,3 +34,6 @@ class Recipe:
 			pass;
 		txt += "\ntype: " + self.recipe_type;
 		return txt;
+
+	def print(self):
+		print('Hello world')
